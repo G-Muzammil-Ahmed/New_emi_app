@@ -1,0 +1,104 @@
+.myUl{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(62, 71, 201);
+    font-size: larger;
+    border-radius: 5px;
+    list-style: none;
+    color: white;
+    height: 50px;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.myNav{
+    margin: 23px;
+}
+
+
+#myImg{
+    background:  no-repeat center fixed;     
+    background-size: cover;
+
+}
+button{
+    color:white;
+    background-color: rgb(62, 71, 201);
+    border: none;
+    font-weight: bolder;
+    margin-right: 25px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(50,68, 188)
+}
+#myIcon{
+width: 260px;
+position: absolute;
+}
+
+#myIcon :hover{
+    cursor: pointer;
+}
+
+
+
+#iconMain{
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 25px;
+}
+
+#iconMain :hover{
+    cursor: pointer;
+    transform: translate(0px, 5px);
+    background-color: rgb(185, 183, 182);
+}
+
+
+
+h3{
+    color: rgb(46, 56, 184);
+}
+
+#firstImg{
+    width: 60px;
+    height: 60px;
+   
+}
+#thirdImg{
+    width: 60px;
+    height: 60px;
+    
+}
+#secondImg{
+    width: 60px;
+    height: 60px;
+    
+}
+#firstNav{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.innerLeftB{
+    border: 2px solid black;
+    border-radius: 6px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px;
+}
+
+.innerRightB{
+    border: 2px solid black;
+    border-radius: 6px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px;
+}

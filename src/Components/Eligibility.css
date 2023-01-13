@@ -1,0 +1,52 @@
+#mainEligibility{
+
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    position: absolute;
+    left: 25%;
+    
+}
+
+#boxMain{
+    display: flex;
+    width: 1000px;
+    height: 800px;
+    opacity: 66%;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+#firstP{
+    font-weight:bolder; 
+    border:1px solid black;
+    background-color:black;
+     color:white;
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 26px;
+    width: 200px;
+    opacity: 95%;
+
+}
+
+#firstInput{
+    position: absolute;
+    left: 200px;
+    top: 260px;
+    width: 600px;
+}
+
+#firstClose{
+    position: absolute;
+    left: 800px;
+    bottom: 20px;
+    width: 160px;
+    height: 30px;
+    border-radius: 5px;
+}
+
