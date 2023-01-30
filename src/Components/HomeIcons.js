@@ -4,14 +4,17 @@ import Icon from '../money.png'
 import Icon2 from '../quote-request.png'
 import Icon3 from '../checked.png'
 import navIcon from '../hamburger.png'
+import { useDispatch } from 'react-redux'
 
 
 function HomeIcons(props) {
     const photo = 'https://foundationcreditunion.com/wp-content/uploads/2021/07/loan-money-bag-next-to-gold.jpg'
 
-
+   const dispatch = useDispatch()
     const clickHandler =()=>{
-          props.onChangeFunc(false)
+          //props.onChangeFunc(false)
+          dispatch({type:'ELIGIBLE'})
+
     }
 
   return (
