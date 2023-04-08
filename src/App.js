@@ -21,7 +21,7 @@ function App() {
  const dispatch = useDispatch();
 
   const changeFunc = ()=>{
-          //setIsEligible((prev)=>!prev)
+         
           dispatch({type:'ELIGIBLE'})
   }
   const signedInFunc = (value)=>{
